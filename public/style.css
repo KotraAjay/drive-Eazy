@@ -1,0 +1,509 @@
+.color{
+    color:#2E073F ;
+    color: #7A1CAC;
+    color: #AD49E1;
+    color: #EBD3F8 ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #EBD3F8;
+    
+}
+
+nav{
+    background-color:#2E073F ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: #AD49E1;
+}
+nav h1{
+    margin-left: 20px;
+}
+ul{
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+    
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease 0s;
+}
+a:hover{
+    color:#2E073F;
+    background-color:#bdacc6e8;
+}
+
+.hie a:hover{
+    color: #EBD3F8;
+    background-color: #2E073F;
+}
+
+.dropdown{
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 5;
+    box-shadow: 0px 0px 10px black;
+}
+.dropdown li{
+    width:100%;
+    background-color: #2E073F; 
+}
+ul li:hover .dropdown{
+    display: block;
+}
+.hie{
+    font-weight: bold;
+}
+
+.landing{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.backgroundGrey{
+    background-color: rgb(185, 185, 185);
+    z-index: -5;
+}
+
+.landing .left{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.landing .right{
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.landing .left .content{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.landing .left h1{
+    color: black;
+}
+
+.landing .left .line{
+    width: 50px;
+    height: 4px;
+    background-color: #2E073F;
+    border-radius: 20px;
+}
+
+.landing .left p{
+    color: black;
+}
+
+.landing .right .rectBox{
+    height: 90%;
+    width: 80%;
+    margin-left: 30px;
+    background-color: #2E073F;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.landing .right img{
+    height: 400px;
+    width: 110%;
+    z-index: 2;
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+
+.landing .left > .img-1{
+    position: absolute;
+    left: -12%;
+    height: 400px;
+    width: 300px;
+    opacity: 0.5;
+}
+
+.landing .left > .img-2{
+    position: absolute;
+    top: -6%;
+    left: -12%;
+    height: 400px;
+    width: 300px;
+    opacity: 0.5;
+}
+
+.landing .left .content img{
+    height: 45px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ims{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+    background-color: #2E073F;
+}
+
+footer .foot{
+    margin-left: 94px;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.fOne h1{
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.fOne p{
+    color: #EBD3F8;
+    text-align: justify;
+}
+
+.fOne,.fTwo,.fThree{
+    height: 80%;
+    width: 300px;
+}
+
+.footList{
+    display: flex;
+    flex-direction: column;
+}
+
+.footList{
+    margin-top: 20px;
+}
+
+.footList li:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footList li a:hover{
+    background-color: #2E073F;
+    color: #EBD3F8;
+}
+
+.fline{
+    width: 90%;
+    height: 1px;
+    margin-top: 70px;
+    margin-left: 5%;
+    background-color: #ebd3f8b0;
+    align-self: flex-end;
+}
+
+footer > p{
+    color: #EBD3F8;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+
+footer > p span{
+    color: #EBD3F8;
+    font-weight: bold;
+}
+
+.rentals{
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rentals .rentalUpperHeading{
+    width: 100%;
+    height: 60px;
+    background-color: #AD49E1;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rentals .rentalDownHeading{
+    width: 100%;
+    height: 60px;
+    background-color: #AD49E1;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uCards{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dCards{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    width: 60%;
+    margin-right: 100px;
+    background-color: rgba(128, 128, 128, 0.209);
+    border-radius: 20px;
+}
+
+.card img{
+    height: 130px;
+    width: 160px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+
+.card .cardContent{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card .cardContent h1{
+    color: black;
+}
+
+.card .cardContent p span{
+    padding: 0px 5px;
+    margin-right: 5px;
+    background-color: rgba(128, 128, 128, 0.455);
+    border-radius: 3px;
+    color: black;
+}
+
+.card .cardContent h2{
+    color: black;
+}
+
+.rentals button{
+    cursor: pointer;
+    color: #EBD3F8;
+    border-radius: 20px;
+    border: 2px solid #2E073F;
+    background-color: #2E073F;
+    height: 40px;
+    width: 90px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    transition: all 0.2s ease 0s;
+    font-weight: bold;
+}
+
+.rentals button:hover{
+    background-color: rgba(128, 128, 128, 0.209);
+    color: #2E073F;
+}
+
+
+
+
+.ajay{
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 1200px;
+    width: 100%;
+}
+
+.gnany{
+    margin-top: 5px;
+    border: 1px solid blue;
+    height: 600px;
+    width: 100%;
+}
+.blackBox{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AD49E1;
+}
+
+.box h2,p{
+    color: black;
+}
+
+.whitebox{
+    
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(185, 185, 185);
+    
+
+}
+.gline{
+    border: 1px dotted black;
+    height: 2px;
+    width: 70%;
+    position: relative;
+    top: 160px;
+    left: 180px;
+   
+}
+.whitebox>p{
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fourBox{
+    
+    height: 150px;
+    width: 100%;
+    margin-top:10px; 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0%;
+}
+
+.image{
+    height: 80px;
+    width: 90px;
+    position: relative;
+    border-radius: 10px;
+    background-color: aliceblue ;
+    box-shadow: 0px 0px 10px black;
+}
+.one>img{
+    margin-left: 60px;
+}
+.two>img{
+    margin-left: 40px;
+}
+.three>img{
+    margin-left: 90px;
+    height: 50px;
+    width: 56px;
+    padding: 15px 20px;
+}
+.four>img{
+    margin-left: 100px;
+    height: 50px;
+    width: 70px;
+    padding: 15px 15px
+}
+.gbox>p{
+    margin-top: 20px;
+}
+.apple{
+    
+    display: flex;
+    height: 300px;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    background-color: white
+
+}
+.samsung{
+    
+    width: 200px;
+    margin-left: 20px;
+    
+}
+.samsung>p{
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey
+    font-weight: bold;
+    
+}
+.pine{
+    
+    width: 250px;
+}
+.oneplus{
+    
+    width: 250px;
+}
+.kiwi{
+    
+    width: 250px;
+}
+
+.spoon{
+    padding: 0%;
+    margin: 0;
+    display: block;
+    position: relative;
+    margin-top: 40px;
+    right: 20px; 
+}
+.glass{
+    margin-top: 30px;
+   
+}
+.fruit li a:hover{
+    background-color: white;
+    color: black;
+}
+.fruit li {
+     color: black;
+}
+.fruit li h2{
+    
+    font-weight: bold;
+    color:black
+}
+.fruit li p{
+    color: black
+}
